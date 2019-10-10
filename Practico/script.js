@@ -10,10 +10,10 @@ function cargarProductos() {
 
     if (categoria == 0) {
         document.getElementById('slcProducto').innerHTML = '<option value="0">Cereal</option><option value="1">Fruta</option>';
-        document.getElementById('slcMarca').innerHTML = '<option value="0">Cereal 1</option><option value="1">Cereal 2</option><option value="1">Cereal 3</option>';
+        document.getElementById('slcMarca').innerHTML = '<option value="0">Cereal 1</option><option value="1">Cereal 2</option><option value="2">Cereal 3</option>';
     } else {
         document.getElementById('slcProducto').innerHTML = '<option value="0">Pantalon</option><option value="1">Camisa</option>';
-        document.getElementById('slcMarca').innerHTML = '<option value="0">Pantalon 1</option><option value="1">Pantalon 2</option><option value="1">Pantalon 3</option>';
+        document.getElementById('slcMarca').innerHTML = '<option value="0">Pantalon 1</option><option value="1">Pantalon 2</option><option value="2">Pantalon 3</option>';
     }
 
     cargarChart();
@@ -25,15 +25,15 @@ function cargarMarcas() {
 
     if (categoria == 0) {
         if (producto == 0) {
-            document.getElementById('slcMarca').innerHTML = '<option value="0">Cereal 1</option><option value="1">Cereal 2</option><option value="1">Cereal 3</option>';
+            document.getElementById('slcMarca').innerHTML = '<option value="0">Cereal 1</option><option value="1">Cereal 2</option><option value="2">Cereal 3</option>';
         } else {
-            document.getElementById('slcMarca').innerHTML = '<option value="0">Fruta 1</option><option value="1">Fruta 2</option><option value="1">Fruta 3</option>';
+            document.getElementById('slcMarca').innerHTML = '<option value="0">Fruta 1</option><option value="1">Fruta 2</option><option value="2">Fruta 3</option>';
         }
     } else {
         if (producto == 0) {
-            document.getElementById('slcMarca').innerHTML = '<option value="0">Pantalon 1</option><option value="1">Pantalon 2</option><option value="1">Pantalon 3</option>';
+            document.getElementById('slcMarca').innerHTML = '<option value="0">Pantalon 1</option><option value="1">Pantalon 2</option><option value="2">Pantalon 3</option>';
         } else {
-            document.getElementById('slcMarca').innerHTML = '<option value="0">Camisa 1</option><option value="1">Camisa 2</option><option value="1">Camisa 3</option>';
+            document.getElementById('slcMarca').innerHTML = '<option value="0">Camisa 1</option><option value="1">Camisa 2</option><option value="2">Camisa 3</option>';
         }
     }
 
